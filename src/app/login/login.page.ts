@@ -64,7 +64,6 @@ export class LoginPage implements OnInit {
       this.message = "Autenticación con éxito.";
       this.username = "";
       this.password = "";
-      this.message = "";
       this.router.navigate(['home'])
     }).catch(res => {
       console.log(res.message);
